@@ -30,7 +30,7 @@ python transfer_cls.py --dataset cifar10 --model_name minigpt-4 --target_models 
 ```
 
 2. Inference with a model
-Specify the path to checkpoint if you want to evaluate on the dataset with trained prompt.
+Specify the path to checkpoint if you want to evaluate on the dataset with trained prompt. A reproducible checkpoint is placed in `save/checkpoint_best.pth`.
 ```
 python transfer_cls.py --dataset cifar10 --model_name minigpt-4 --evaluate --checkpoint $PATH_TO_PROMPT
 ```
