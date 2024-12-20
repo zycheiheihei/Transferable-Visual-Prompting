@@ -35,3 +35,15 @@ Specify the path to checkpoint if you want to evaluate on the dataset with train
 python transfer_cls.py --dataset cifar10 --model_name minigpt-4 --evaluate --checkpoint $PATH_TO_PROMPT
 ```
 
+### Bibtex
+If you find this work helpful, please cite it with the bibtex below.
+```
+@InProceedings{Zhang_2024_CVPR,
+    author    = {Zhang, Yichi and Dong, Yinpeng and Zhang, Siyuan and Min, Tianzan and Su, Hang and Zhu, Jun},
+    title     = {Exploring the Transferability of Visual Prompting for Multimodal Large Language Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {26562-26572}
+}
+```
